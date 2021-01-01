@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - circus
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - main
+  - buildings
+  - bg
   - 
   - 
   - 
@@ -38,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bg
+    uniqueID: 2778666149
+    locked: 0
+  - name: buildings
+    uniqueID: 4138068523
+    locked: 0
+  - name: main
+    uniqueID: 2746468017
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
